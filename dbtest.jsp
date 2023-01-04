@@ -14,7 +14,7 @@
     	}catch(Exception e) {
             	e.printStackTrace();
 }
-%><br>
-<%@ page import="java.net.InetAddress" %><br>
-<%InetAddress inet= InetAddress.getLocalHost();%>
-WAS ip : <%=inet.getHostAddress()%>
+%>#<br>
+#<%@ page import="java.net.InetAddress" %><br>
+#<%InetAddress inet= InetAddress.getLocalHost();%>
+#WAS ip : <%=inet.getHostAddress()%>
